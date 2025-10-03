@@ -14,77 +14,79 @@
 />
 </head>
 <body>
-    <div class="main">
-        <div class="trade">
-            <div class="trade-name">
+    <div class="tradingAlert">
+        <header class="tradingAlert__header">
+            <div class="tradingAlert__tradeIdLabel">
                 <p>Trade ID</p>
             </div>
-            <div class="trade-id">
+            <div class="tradingAlert__tradeIdNo">
                 <p>920251</p>
             </div>
-        </div>
-        <div class="form">
+        </header>
+        <div class="tradingAlert__body">
             <form action="#">
-                <div class="form-inputs">
+                <div class="tradingAlert__section">
                     <label for="pair">Pair</label>
-                    <input type="text" class="text-input">
+                    <input type="text" class="tradingAlert__section__textInfo">
                 </div>
-                <div class="form-inputs">
+                <div class="tradingAlert__section">
                     <label for="pair">Direction</label>
-                    <select name="" id="" class="select-input">
+                    <select name="" id="" class="tradingAlert__section__selectInfo">
                         <option value="buy">Buy</option>
                         <option value="sell">Sell</option>
                     </select>
                 </div>
-                <div class="form2">
-                    <div class="entry">
+                <div class="tradingAlert__formGroup">
+                    <div class="tradingAlert__formGroup__Info">
                         <label for="entry">Entry</label>
-                        <input type="text" class="entry-input">
+                        <input type="text" class="tradingAlert__formGroup__Info__Input">
                     </div>
-                    <div class="entry">
+                    <div class="tradingAlert__formGroup__Info">
                         <label for="stop-loss">Stop Loss</label>
-                        <input type="text" class="entry-input">
+                        <input type="text" class="tradingAlert__formGroup__Info__Input">
                     </div>
                 </div>
-                <div class="form2">
-                    <div class="entry">
+                <div class="tradingAlert__formGroup">
+                    <div class="tradingAlert__formGroup__Info">
                         <label for="tp1">TP1</label>
-                        <input type="text" class="entry-input">
+                        <input type="text" class="tradingAlert__formGroup__Info__Input">
                     </div>
-                    <div class="entry">
+                    <div class="tradingAlert__formGroup__Info">
                         <label for="tp2">TP2</label>
-                        <input type="text" class="entry-input">
+                        <input type="text" class="tradingAlert__formGroup__Info__Input">
                     </div>
                 </div>
-                <div class="form-inputs">
+                <div class="tradingAlert__section">
                     <label for="image"></label>
-                    <input type="file" class="file-input">
+                    <input type="file" class="tradingAlert__fileUploader">
                 </div>
-                <div class="form-inputs">
+                <div class="tradingAlert__section">
                     <label for="pair">Trade Follow-up</label>
-                    <input type="text" class="text-input">
+                    <input type="text" class="tradingAlert__section__textInfo">
                 </div>
-                <div class="button">
-                    <button type="submit" class="form-button">Save to Portfolio Tracker</button>
+                <div class="tradingAlert__btnWrapper">
+                    <button type="submit" class="tradingAlert__btn">Save to Portfolio Tracker</button>
                 </div>
             </form>
         </div>
-        <div class="icons">
-            <a href="" class="whatsapp-icon"><i class="ri-whatsapp-line"></i></a>
-            <a href="" class="telegram-icon"><i class="ri-telegram-fill"></i></a>
-            <a href="" class="facebook-icon"><i class="ri-facebook-circle-fill"></i></a>
-        </div>
-        <div class="actions">
-            <form action="" class="actions-form">
-                <button class="action-btn" type="submit">Delete</button>
-            </form>
-            <form action="" class="actions-form">
-                <button class="action-btn" type="submit">Edit</button>
-            </form>    
-        </div>
-        <div class="reminder">
-           <p>Save Trade to Trade Alerts History</p>
-        </div>
+        <footer>
+            <div class="tradingAlert__socialLinks">
+                <a href="" class="tradingAlert__socialLinks__whatsapp"><i class="ri-whatsapp-line"></i></a>
+                <a href="" class="tradingAlert__socialLinks__telegram"><i class="ri-telegram-fill"></i></a>
+                <a href="" class="tradingAlert__socialLinks__facebook"><i class="ri-facebook-circle-fill"></i></a>
+            </div>
+            <div class="tradingAlert__actions">
+                <form action="" class="tradingAlert__actions__form">
+                    <button class="tradingAlert__actions__btn" type="submit">Delete</button>
+                </form>
+                <form action="" class="tradingAlert__actions__form">
+                    <button class="tradingAlert__actions__btn" type="submit">Edit</button>
+                </form>    
+            </div>
+            <div class="tradingAlert__infoText">
+                <p>Save Trade to Trade Alerts History</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
